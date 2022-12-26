@@ -1,9 +1,9 @@
 provider "aws" {
   version = "~>3.0"
-  region = "us-east-1"
+  region = "us-ap-south-1"
 }
 resource "aws_s3_bucket" "s3" {
-  bucket = "12-23-2002"
+  bucket = "15-09-1998"
 }
 resource "aws_s3_bucket_policy" "policy" {
   bucket = aws_s3_bucket.s3.id
