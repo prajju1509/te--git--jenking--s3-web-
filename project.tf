@@ -1,6 +1,6 @@
 provider "aws" {
   version = "~>3.0"
-  region = "us-ap-south-1"
+  region = "ap-south-1"
 }
 resource "aws_s3_bucket" "s3" {
   bucket = "15-09-1998"
